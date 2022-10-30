@@ -1,0 +1,72 @@
+
+h{
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    color: #903749;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+h:hover{
+    color:black; /*a changer*/
+    transition: color 2s;
+    
+}
+
+/* page 1*/
+.page_1 p{
+    color:white
+}
+
+.page_1_navbar_identiter p{
+    font-size: 25px;
+}
+.page_1_navbar_ecole p{
+    text-align: center;
+    font-size: 20px;
+  
+
+}
+/* page 2*/
+@media all and (min-device-width: 1200px){
+
+    .page_2 p {
+    
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media all and (max-device-width: 600px){
+
+    .page_2 p {
+        
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* page 3*/
+.page_3_text{
+    font-size: 20px;
+    color: #2B2E4A;
+}
+
+
+/* page 4*/
+.page_4 p{
+    color: #2B2E4A;
+    font-size: 25px;
+}
+
+.page_4_intro{
+
+    text-align: center;
+
+}
+

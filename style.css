@@ -1,0 +1,169 @@
+@import url(composants/avatar.css);
+@import url(composants/bouttons.css);
+@import url(composants/containers.css);
+@import url(composants/grille.css);
+@import url(composants/text.css);
+@import url(composants/banner.css);
+@import url(composants/page1.css);
+@import url(composants/img.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color:white; text-decoration : none;
+}
+
+
+/* page 1*/
+.page_1_navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    /*background-color: gray;*/
+
+    animation-name: color-navbar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes color-navbar {
+    0%{
+        background-color: #E84545;
+    }
+    33%{
+        background-color: tomato; 
+
+    }
+    66%{
+        background-color: orangered;
+
+    }
+    100%{
+        Background-color: #E84545;
+    }
+
+}
+
+.page_1_navbar_identiter{
+   display: flex;
+   flex-direction:row-reverse;
+   justify-content:flex-start;
+   /*background-color: blue;*/
+
+}
+
+.page_1_navbar_identiter_nom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page_1_navbar_ecole{
+   /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center}
+.page_1_navbar_bouton{
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+/* page 2*/
+
+
+
+
+
+/* page 3*/
+.page_3_titre-A_Propos{
+    background-color:lightsalmon;
+
+}
+.page_3{
+
+    display: flex;
+    background-color:lightsalmon;
+    justify-content: center;
+    padding-top: 7%;
+    margin-bottom: 7%;
+    padding-bottom: 3%;
+}
+
+
+.page_3_text {
+
+    /*background-color: fuchsia;*/
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+
+
+@media all and (min-device-width: 900px){
+
+    .page_3_text{
+    margin-right: 15%;
+    margin-left: 5%;
+    }
+}
+@media all and (max-device-width: 899px){
+
+    .page_3_text{
+    margin-left: 1%;
+    margin-right: 1%;
+    }
+}
+
+
+/* page 4*/
+.page_4_titre-Contact{
+    padding: 3%;
+}
+
+.page_4{
+
+    display: flex;
+    flex-direction: column;
+}
+.page_4 div {
+    padding: 2%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+    
+}
+
+.page_4_intro{
+
+margin-left: 10%; 
+margin-right: 10%;  
+}
+@media all and (max-device-width: 899px){
+
+    .blank{
+        padding-bottom: 50%;
+    }
+}
+
+@media all and (max-device-width: 400px){
+
+    .blank{
+        padding-bottom: 20%;
+    }
+}
+
+

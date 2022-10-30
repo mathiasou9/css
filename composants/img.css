@@ -1,0 +1,35 @@
+.people{
+width: 120px;
+height: auto;
+display: block; 
+}
+.ordi{
+width: 100% ;
+height: auto;
+display: block; 
+}
+/* page 2*/
+.page_2 img {
+width: 350px;
+height: auto;
+}
+/*70% - 300px - 50vh */
+
+
+/* page 3
+
+*/
+
+/*@media all and (max-device-width: 500px)*/
+
+
+
+/* page 4*/
+.page_4 img {
+width: 40px;
+height: auto;
+display: block;
+margin-right: 1%;
+
+
+}
